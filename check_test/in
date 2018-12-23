@@ -1,0 +1,148 @@
+/* cell type */
+/* celltype == 0 --> sinus rhythm (SR) */
+/* celltype == 1 --> chronic AF (cAF) */
+0
+
+/* simulation type */
+/* simtype == 0 --> without ISO stimulation */
+/* simtype == 1 --> with ISO stimulation */
+/* simtype == 2 --> with CCh blockade */
+2
+
+/* Base cycel length */
+//500
+1000
+//2000
+
+/* ndis */
+//0.002           // for 1ms pulse width with BCL500
+//0.001         // for 1ms pulse width with BCL1000
+0.005         // for 5ms pulse width with BCL1000
+//0.0005        // for 1ms pulse width with BCL2000
+
+/* Istim */
+-12.5	
+//0.0	
+
+/* CCh concentration */
+0.125
+
+/* number of data */
+1
+
+/* line width */
+1
+
+/* x1, y1 */
+/*
+-87.84       // Vm            = x[0]
+0.0012       // m             = x[1]
+0.99     	 // h             = x[2]
+0.99     	 // j             = x[3]
+0.0          // ml            = x[4]
+1.0          // hl            = x[5]
+0.0          // xr            = x[6]
+0.006        // xs            = x[7]
+0.0          // a             = x[8]
+0.1          // i             = x[9]
+0.0          // ua            = x[10]
+0.99         // ui            = x[11]
+0.0	         // d             = x[12]
+1.0	         // f             = x[13]
+0.0141       // fca_junc      = x[14]
+0.0141       // fca_sl        = x[15]
+1.0          // R             = x[16]
+0.0          // O             = x[17]
+0.0          // I             = x[18]
+1.8          // NaBj          = x[19]
+0.8      	 // NaBsl         = x[20]
+0.012        // TnCL          = x[21]
+0.112        // TnCHc         = x[22]
+0.01         // TnCHm         = x[23]
+0.4e-3       // CaM           = x[24]
+1.9e-3       // Myosin_Ca     = x[25]
+0.135        // Myosin_Mg     = x[26]
+3.3e-3       // SRB           = x[27]
+0.012        // SLLj          = x[28]
+0.012        // SLLsl         = x[29]
+0.13         // SLHj          = x[30]
+0.13         // SLHsl         = x[31]
+1.5          // Csqn          = x[32]
+0.9          // Ca_sr         = x[33]
+8.8          // Naj           = x[34]
+8.8          // Nasl          = x[35]
+8.8          // [Na]i         = x[36]
+135.0        // [K]i          = x[37]
+0.1e-3       // Caj           = x[38]
+0.1e-3       // Casl          = x[39]
+0.1e-3       // [Ca]i         = x[40]
+*/
+-8.371760801558025e+01
+2.362665822234710e-03
+7.009101171302574e-01
+7.008143899888229e-01
+1.912909729238456e-03
+2.242969707365031e-01
+9.903308833945717e-04
+3.654166332502592e-03
+5.419792949557827e-04
+9.772011448085611e-01
+1.189308490344429e-04
+9.926387850208517e-01
+3.906757280737194e-06
+9.997847087940008e-01
+5.382000885264906e-02
+3.684430992367255e-02
+7.851248946164781e-01
+3.120145608945234e-06
+8.539140988728867e-07
+3.588804846993108e+00
+7.831651062415240e-01
+1.910329202457604e-02
+1.287205261939639e-01
+5.280189893829309e-03
+7.450686697344544e-04
+4.259585218749653e-03
+1.352260694919363e-01
+4.654926792577175e-03
+1.641306839336709e-02
+2.426157273213638e-02
+1.132777038253314e-01
+2.043429770373213e-01
+1.167906589539398e+00
+5.300908930634560e-01
+9.028439853783150e+00
+9.029869403351519e+00
+9.030067189132987e+00
+1.350000000000000e+02
+3.963561823668126e-04
+2.647492034020227e-04
+2.242037030232720e-04
+
+/* direction of time */
+1
+/* end time. 0.0 = nolimit of integration */ 
+0
+
+/* dIstim */
+0.1
+
+1               /* number of period */
+200         	/* strip for integral */
+1               /* poincare flag 0 --- poincare/1 --- orbit */
+0               /* write file 0 --- not write/1 --- write */
+0               /* write flag 0 --- poincare/1 --- orbit */
+0               /* if 1 then period is PI*/
+0               /* data output swithc; if 1 then data out*/
+1               /* screen output swithc; if 1 then data out*/
+0               /* current data output; if 1 then data out*/
+0               /* if 1 then debug */
+
+100 600 100 600     /* graph location */
+-100 60 -50 400	/* scaling */
+30 50 1 1     /* label strip & interval */
+1 1                 /* floating point */
+1                   /* axis/grid */
+-sony-fixed-medium-r-normal--24-170-100-100-c-120-iso8859-1 /* font */
+-212 -460 -40 -288      /* arrow */
+1                   /* command */

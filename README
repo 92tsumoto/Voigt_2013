@@ -1,0 +1,6 @@
+
+Voigt et al, human atrial myocyte model based on Grandi-Bers human atrial myocyte model.
+
+Voigt et al., J Mol Cell Cardiol, 2013 61:142-152.
+
+modifications in IK,ACh and IK1 formulation and replacement of GB INa model into Courtemanche et al 1998 model. 
